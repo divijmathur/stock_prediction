@@ -7,7 +7,7 @@ from openai import OpenAI
 client = OpenAI()
 
 # 2. Load your historical stock data from CSV (in your Downloads folder)
-csv_path = "/Users/divijmathur/Downloads/caci.csv"
+csv_path = 
 df = pd.read_csv(csv_path)
 
 # Rename "Close/Last" to "Close" for easier calculations
